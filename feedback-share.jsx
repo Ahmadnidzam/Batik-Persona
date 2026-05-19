@@ -121,7 +121,7 @@ function FeedbackSection({ navigate }) {
 // ---------- Share Modal ----------
 function ShareModal({ persona, onClose }) {
   const [copied, setCopied] = useState(false);
-  const url = "http://localhost:8000/hasil/" + persona.key;
+  const url = "https://ahmadnidzam.github.io/Batik-Persona/#" + persona.key;
   const text = `Saya adalah ${persona.title} — batik padananku adalah ${persona.batik}! Cek punyamu di Batik Persona.`;
 
   const channels = [
